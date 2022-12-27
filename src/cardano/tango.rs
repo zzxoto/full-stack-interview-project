@@ -6,16 +6,16 @@ use super::{
 pub struct Tango {
     base_url: String,
     app_id: String,
-    app_key: String,
+    api_key: String,
 }
 
 impl Tango {
-    pub fn new(base_url: String, app_id: String, app_key: String) -> Self {
-        Tango {
+    pub fn new(base_url: String, app_id: String, api_key: String) -> anyhow::Result<Self> {
+        Ok(Tango {
             base_url,
             app_id,
-            app_key,
-        }
+            api_key,
+        })
     }
 }
 

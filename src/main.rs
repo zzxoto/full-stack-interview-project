@@ -13,9 +13,7 @@ fn get_tango() -> Option<Tango> {
         env::var("TANGO_APP_ID").ok(),
         env::var("TANGO_API_KEY").ok(),
     ) {
-        (Some(base_url), Some(app_id), Some(api_key)) => {
-            Some(Tango::new(base_url, app_id, api_key))
-        }
+        (Some(base_url), Some(app_id), Some(api_key)) => Tango::new(base_url, app_id, api_key).ok(),
         _ => None,
     }
 }
