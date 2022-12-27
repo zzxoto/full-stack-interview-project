@@ -7,6 +7,7 @@ Thank you for your interest in working at Book.io. We hope that you find this in
 We need to create a simple Rust program to list the books available for a given stake address. We also need to be able to tell if a book exists
 
 1. Fork this repository.
+1. Create a branch off the `main` branch.
 1. Create a free account at https://www.tangocrypto.com/.
 1. Copy `.env.dist` to `.env`.
 1. Create a testnet app and copy your `APP_ID` and `API_KEY` into `.env`.
