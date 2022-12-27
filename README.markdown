@@ -4,7 +4,7 @@ Thank you for your interest in working at Book.io. We hope that you find this in
 
 ## Instructions
 
-We need to create a simple Rust program to list the books available for a given stake address. We also need to be able to tell if a book exists
+We need to create a simple Rust program to list the books available for a given stake address. We also need to be able to tell if a book exists at any address associated with the stake address.
 
 1. Fork this repository.
 1. Create a branch off the `main` branch.
